@@ -1,0 +1,42 @@
+{
+  "name": "jingsiji-miniapp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "净司机 · 网约车司机出车管家小程序（Taro3 + Vue3）",
+  "templateInfo": {
+    "framework": "vue3"
+  },
+  "browserslist": [
+    "last 3 versions",
+    "Android >= 4.1",
+    "ios >= 8"
+  ],
+  "scripts": {
+    "dev:weapp": "npm run build:weapp -- --watch",
+    "build:weapp": "taro build --type weapp",
+    "test": "node tests/contract.test.js"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.24.0",
+    "@tarojs/components": "3.6.25",
+    "@tarojs/helper": "3.6.25",
+    "@tarojs/plugin-framework-vue3": "3.6.25",
+    "@tarojs/plugin-platform-weapp": "3.6.25",
+    "@tarojs/runtime": "3.6.25",
+    "@tarojs/shared": "3.6.25",
+    "@tarojs/taro": "3.6.25",
+    "vue": "3.4.38"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@tarojs/cli": "3.6.25",
+    "@tarojs/webpack5-runner": "3.6.25",
+    "@vue/babel-plugin-jsx": "^1.2.2",
+    "@vue/compiler-sfc": "3.4.38",
+    "babel-preset-taro": "3.6.25",
+    "eslint-config-taro": "3.6.25",
+    "stylelint": "^16.3.0",
+    "vue-loader": "^17.2.2",
+    "webpack": "5.91.0"
+  }
+}

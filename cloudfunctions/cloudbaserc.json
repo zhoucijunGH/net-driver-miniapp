@@ -1,0 +1,18 @@
+{
+  "version": "2.0",
+  "envId": "zhoucijun-d2gete83h2f2bb329",
+  "region": "ap-shanghai",
+  "functionRoot": "./",
+  "functions": [
+    {
+      "name": "consent",
+      "runtime": "Nodejs18.15",
+      "entry": "index.main",
+      "handler": "index.main",
+      "installDependency": false,
+      "timeout": 20,
+      "memorySize": 256,
+      "ignore": ["node_modules", ".git", "*.log"]
+    }
+  ]
+}

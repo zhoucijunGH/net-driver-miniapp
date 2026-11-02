@@ -1,0 +1,7 @@
+{
+  "name": "initDb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "一次性云环境初始化：批量创建 12 个集合，用完即删",
+  "dependencies": { "wx-server-sdk": "~2.6.3" }
+}

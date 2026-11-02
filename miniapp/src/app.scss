@@ -1,0 +1,30 @@
+/* 全局样式：净司机主题 */
+page {
+  --ns-orange: #FF7E33;
+  --ns-orange-deep: #FF6A1A;
+  --ns-bg: #F7F8FA;
+  --ns-card: #ffffff;
+  --ns-text: #333333;
+  --ns-sub: #999999;
+  background: var(--ns-bg);
+  font-family: -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  color: var(--ns-text);
+}
+
+.ns-card {
+  background: var(--ns-card);
+  border-radius: 20rpx;
+  padding: 24rpx;
+  margin: 20rpx 24rpx;
+  box-shadow: 0 2rpx 12rpx rgba(0, 0, 0, 0.04);
+}
+
+.ns-btn-primary {
+  background: linear-gradient(135deg, #FF9A4D, var(--ns-orange-deep));
+  color: #fff;
+  border-radius: 48rpx;
+  font-size: 32rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  text-align: center;
+}
